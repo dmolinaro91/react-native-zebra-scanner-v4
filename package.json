@@ -1,8 +1,18 @@
+
 {
-  "name": "react-native-zebra-scanner-v4",
+  "name": "react-native-zebra-scanner",
   "version": "1.0.0",
-  "description": "Zebra scanner package. Fix listener and remove",
+  "description": "",
   "main": "index.js",
-  "author": "dmolinaro (damian.molinaro@gmail.com)",
-  "license": "MIT"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.55.2"
+  }
 }
