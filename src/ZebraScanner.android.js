@@ -9,7 +9,7 @@ let scanListeners = []
 
 
 function addScanListener(callback) {
-	let listenerAlreadyExists = scanListeners.some(listenerCallback => listenerCallback === callback)
+	const listenerAlreadyExists = scanListeners.some(listenerCallback => listenerCallback === callback)
 	if (!listenerAlreadyExists) {
 		scanListeners.push(callback)
 	}
