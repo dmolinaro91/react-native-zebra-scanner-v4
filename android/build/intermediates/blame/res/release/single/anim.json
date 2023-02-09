@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_slide_up.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\da66f8d290fb53a334dea54852831862\\res\\anim\\catalyst_slide_up.xml"
+    },
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\a7b6d8e3fc03f554ee598257cd21643a\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_push_up_in.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\da66f8d290fb53a334dea54852831862\\res\\anim\\catalyst_push_up_in.xml"
+    },
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_push_up_out.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\da66f8d290fb53a334dea54852831862\\res\\anim\\catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_fade_out.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\da66f8d290fb53a334dea54852831862\\res\\anim\\catalyst_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\abc_tooltip_exit.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\a7b6d8e3fc03f554ee598257cd21643a\\res\\anim\\abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\a7b6d8e3fc03f554ee598257cd21643a\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\abc_tooltip_enter.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\a7b6d8e3fc03f554ee598257cd21643a\\res\\anim\\abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\a7b6d8e3fc03f554ee598257cd21643a\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\a7b6d8e3fc03f554ee598257cd21643a\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\a7b6d8e3fc03f554ee598257cd21643a\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\a7b6d8e3fc03f554ee598257cd21643a\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\a7b6d8e3fc03f554ee598257cd21643a\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\a7b6d8e3fc03f554ee598257cd21643a\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_fade_in.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\da66f8d290fb53a334dea54852831862\\res\\anim\\catalyst_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\catalyst_slide_down.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\da66f8d290fb53a334dea54852831862\\res\\anim\\catalyst_slide_down.xml"
+    },
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\a7b6d8e3fc03f554ee598257cd21643a\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Oxirium\\Oxirium.Corporate.Mobile.Warehouse\\node_modules\\react-native-zebra-scanner-v3\\android\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\damia\\.gradle\\caches\\transforms-2\\files-2.1\\a7b6d8e3fc03f554ee598257cd21643a\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    }
+]

@@ -1,31 +1,9 @@
 
-# react-native-zebra-scanner
+# react-native-zebra-scanner-v4
 
 ## Getting started
 
-`$ npm install react-native-zebra-scanner --save`
-
-### Mostly automatic installation
-
-`$ react-native link react-native-zebra-scanner`
-
-### Manual installation
-
-
-#### Android
-
-1. Open up `android/app/src/main/java/[...]/MainApplication.java`
-  - Add `new ZebraScannerPackage()` to the list returned by the `getPackages()` method
-2. Append the following lines to `android/settings.gradle`:
-  	```
-  	include ':react-native-zebra-scanner'
-  	project(':react-native-zebra-scanner').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-zebra-scanner/android')
-  	```
-3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
-  	```
-      implementation project(':react-native-zebra-scanner')
-  	```
-
+`$ yarn add react-native-zebra-scanner-v4`
 
 ## Usage
 ```javascript
@@ -40,6 +18,6 @@ const scanListener = (scannedCode) => {
 }
 ZebraScanner.addScanListener(scanListener)
 // Remove listener
-ZebraScanner.removeScanListener(scanListener)
+ZebraScanner.removeScanListener()
 ```
   
