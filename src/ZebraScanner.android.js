@@ -9,11 +9,6 @@ let scanListeners = []
 
 
 function addScanListener(callback) {
-
-  	if(scanListeners.length > 0){
-		ZebraScanner.disable()
-	}
-
 	let listenerAlreadyExists = scanListeners.some(listenerCallback => listenerCallback === callback)
 	if (!listenerAlreadyExists) {
 		scanListeners.push(callback)
@@ -21,10 +16,9 @@ function addScanListener(callback) {
 	turnScannerOnOrOff()
 }
 
-function removeScanListener() {
-	if(scanListeners.length > 0){
-		ZebraScanner.disable()
-	}
+function removeScanListener(callback) {
+	scanListeners = scanListeners.filter(listenerCallback => listenerCallback !== callback)
+	turnScannerOnOrOff()
 }
 
 function turnScannerOnOrOff() {
