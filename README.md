@@ -1,5 +1,6 @@
-
 # react-native-zebra-scanner-v4
+
+#Fixes: Listener / remove / Add config forced decoders
 
 ## Getting started
 

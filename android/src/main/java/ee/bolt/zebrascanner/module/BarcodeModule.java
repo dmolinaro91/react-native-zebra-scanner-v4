@@ -12,6 +12,7 @@ import com.symbol.emdk.barcode.Scanner;
 import com.symbol.emdk.barcode.ScannerException;
 import com.symbol.emdk.barcode.ScannerResults;
 import com.symbol.emdk.barcode.StatusData;
+import com.symbol.emdk.barcode.ScannerConfig;
 
 import java.util.ArrayList;
 import java.util.Timer;
@@ -24,6 +25,7 @@ public class BarcodeModule implements EMDKManager.EMDKListener, Scanner.DataList
 	private EMDKManager emdkManager = null;
 	private BarcodeManager barcodeManager = null;
 	private Scanner scanner = null;
+	private ScannerConfig config = null;
 
 	private static BarcodeScannedCallback barcodeScannedCallback = null;
 
@@ -144,7 +146,8 @@ public class BarcodeModule implements EMDKManager.EMDKListener, Scanner.DataList
 						} catch (InterruptedException e) {
 							e.printStackTrace();
 						}
-
+            // set decoders
+            setDecoders();
 						scanner.read();
 					} catch (ScannerException e) {
 						statusString = "Idle: " + e.getMessage();
@@ -222,6 +225,32 @@ public class BarcodeModule implements EMDKManager.EMDKListener, Scanner.DataList
 			scanner = null;
 		}
 	}
+
+  private void setDecoders() {
+    if (scanner != null) {
+        try {
+            config = scanner.getConfig();
+            // Set EAN8
+            config.decoderParams.ean8.enabled = true;
+            // Set EAN13
+            config.decoderParams.ean13.enabled = true;
+            // Set Code39
+            config.decoderParams.code39.enabled = true;
+            //Set Code128
+            config.decoderParams.code128.enabled = true;
+            // Set I2of5 force config
+            config.decoderParams.i2of5.enabled = true;
+            config.decoderParams.i2of5.verifyCheckDigit = ScannerConfig.CheckDigitType.USS;
+            config.decoderParams.i2of5.reducedQuietZone = true;
+            // Set QR
+            config.decoderParams.qrCode.enabled = true;
+
+            scanner.setConfig(config);
+        } catch (ScannerException e) {
+          log("Status: " + e.getMessage());
+        }
+    }
+  }
 
 	private static class AsyncDataUpdate extends AsyncTask<String, Void, String> {
 
