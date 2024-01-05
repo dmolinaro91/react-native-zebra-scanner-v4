@@ -1,7 +1,7 @@
 {
   "name": "react-native-zebra-scanner-v4",
-  "version": "1.1.0",
-  "description": "Zebra scanner package. Fixes Listener / remove / Add config decoders",
+  "version": "1.2.0",
+  "description": "Zebra scanner package",
   "main": "index.js",
   "author": "dmolinaro (damian.molinaro@gmail.com)",
   "license": "MIT"

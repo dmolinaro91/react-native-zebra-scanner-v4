@@ -1,7 +1,11 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="ee.bolt.zebrascanner">
+    <queries>
 
+        <package android:name="com.symbol.emdk.emdkservice" />
+
+    </queries>
     <uses-permission android:name="com.symbol.emdk.permission.EMDK"/>
 
     <application>
@@ -9,4 +13,3 @@
     </application>
 
 </manifest>
-  
