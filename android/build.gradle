@@ -39,6 +39,6 @@ repositories {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.symbol:emdk:7.0.0'
+    implementation 'com.symbol:emdk:7.6.10'
 }
   
