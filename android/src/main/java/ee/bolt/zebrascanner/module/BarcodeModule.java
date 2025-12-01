@@ -241,6 +241,7 @@ public class BarcodeModule implements EMDKManager.EMDKListener, Scanner.DataList
             // Set I2of5 force config
             config.decoderParams.i2of5.enabled = true;
             config.decoderParams.i2of5.verifyCheckDigit = ScannerConfig.CheckDigitType.USS;
+            config.decoderParams.i2of5.reportCheckDigit = true; // Transmitir el dígito de verificación
             config.decoderParams.i2of5.reducedQuietZone = true;
             // Set QR
             config.decoderParams.qrCode.enabled = true;
