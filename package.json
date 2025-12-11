@@ -1,6 +1,6 @@
 {
   "name": "react-native-zebra-scanner-v4",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Zebra scanner package",
   "main": "index.js",
   "author": "dmolinaro (damian.molinaro@gmail.com)",
